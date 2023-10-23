@@ -1,0 +1,108 @@
+
+
+body{
+    margin: 0;
+    padding: 0;
+    background-image:url("img/bh.png"); 
+    
+}
+header{
+   max-width: 100%;
+   border: 1px solid black;
+   
+}
+h1{
+    color: maroon;
+    margin: 0;
+    padding: 20px; 
+    background-color: lightslategray ;
+} 
+   
+
+
+h3{
+    font-family: cursive;
+    text-align: center;
+}
+
+p{
+    font-size: 90%;
+}   
+
+.all{
+    max-width: 90%;
+    margin: auto;
+    padding-bottom: 10px;
+}
+
+.row1{
+    margin-top: 15px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+img{
+    max-width: 95%;
+    
+}
+
+p{
+    margin: 0;
+    
+}
+
+.col1{
+   flex: 2;
+}
+
+.col2{
+   flex: 1;
+ 
+}
+
+.col3{ 
+    flex: 1;
+}
+
+.row2{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+
+
+.col4{
+   
+}
+
+.col5{
+   
+    
+}
+
+.col6{
+   
+}
+
+.home a{
+    padding: 3px 10px;
+    margin: 10px;
+    color: blue;
+}
+.home a:hover{
+    background-color: silver;
+    border-radius: 3px;
+}
+
+footer{
+    margin:10px 10px;
+    padding: 3px;
+    background-color: lightgrey;
+}
+
+.foot{
+    font-size: 80%;
+}
+
+
