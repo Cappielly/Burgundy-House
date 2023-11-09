@@ -11,11 +11,11 @@ body{
     background-image:url("img/bh.png");
     background-size: cover;
     background-position: center;
-    max-width: 85%;
+    max-width: 800px;
+    border-top: 15px solid #570808;
+    border-bottom: 25px solid #570808;
     margin: auto;
     height: 100vh;
-    border-bottom: 20px solid #570808;
-    border-top: 15px solid #570808;
     border-radius: 5px;
     box-sizing: border-box;
 }
@@ -80,6 +80,8 @@ p{
     font-weight: bolder;
     text-align: center;
 }
+
+
 
 
 
