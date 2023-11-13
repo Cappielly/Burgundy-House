@@ -26,16 +26,32 @@ body{
 
 /* site navigation */
 
+.site-nav{
+    overflow: hidden;
+}
+
+/* transform and transition properties to create animation */
 
 .site-nav .navWrap{
     display: flex;
     justify-content: space-between;
-    margin-top: 5px;
     padding-left: 3px;
+    background-color: #000;
+    opacity: 0;
+    transform: translateY(-100%);
+    transition: 2s;
 }
+
+.all:hover .navWrap{
+    transform: translateY(0%);
+    transition: 2s;
+    opacity: .8;
+}
+
 nav ul{
     display: flex;
     padding: 0;
+    overflow: hidden;
 }
 
 .site-nav li{
@@ -43,6 +59,8 @@ nav ul{
     padding: 3px;
 
 }
+
+
 .site-nav a{
     display: block;
     text-decoration: none;
@@ -58,6 +76,7 @@ nav ul{
 .site-nav a:hover{
     background-color: snow;
     transform: translate(1px, 1px) skew(3deg) scale(1.01);
+    transition: .5s;
 }
 
 
@@ -73,11 +92,51 @@ nav ul{
    font-family: fantasy;
    font-weight: bolder;
    color: #000;
+   text-shadow: 1px 1px 1px #f31b1b;
    
 }
 
-p{
-    text-shadow: 1px 1px 1px #f31b1b;
+
+
+.rust{
+    color: maroon;
+    display: flex; 
+    justify-content: baseline;
+    margin: 15px 0 0 5px;
+    text-shadow: 1px 1px 1px #000;
+    font-size: larger;
+}
+
+/* @keyframes animation */
+
+@keyframes bounce{
+    0%{
+        opacity: 0;
+        transform: translateY(-200%);
+    }
+     
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.bouncy1{
+    animation-name: bounce;
+    animation-duration: .5s;
+    padding: 3px;
+}
+
+.bouncy2{
+    animation-name: bounce;
+    animation-duration: 1s;
+    padding: 3px;
+}
+
+.bouncy3{
+    animation-name: bounce;
+    animation-duration: 1.5s;
+    padding: 3px;
 }
 
 .address{
@@ -85,6 +144,7 @@ p{
     font-weight: bolder;
     text-align: center;
 }
+
 
 
 
