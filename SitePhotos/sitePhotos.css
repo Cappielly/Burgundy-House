@@ -73,17 +73,86 @@ p{
 
 
 .col4{
-   
+   flex: 1;
 }
 
 .col5{
-   
+   flex: 1;
     
 }
 
-.col6{
-   
+.row3{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
 }
+
+.col6{
+   flex: 1;
+}
+.col7{
+   flex: 1;
+}
+
+.row4{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.col8{
+   flex: 1;
+}
+
+.col9{
+    flex: 1;
+}
+
+.row5{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.col10{
+   flex: 1;
+}
+
+.col11{
+    flex: 1;
+}
+
+.row6{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.col12{
+   flex: 1;
+}
+
+.col13{
+    flex: 1;
+}
+
+
+@media  screen and (max-width: 480px) {
+    .row1,
+    .row2,
+    .row3,
+    .row4,
+    .row5,
+    .row6
+    {
+        display: block;
+    }
+    .all{
+        max-width: 98%;
+    }
+}
+
 
 .home a{
     padding: 3px 10px;
