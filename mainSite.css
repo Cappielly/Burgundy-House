@@ -83,67 +83,19 @@ nav ul{
 /* end site navigation */
 
 
-
-
-
 .main p{
    margin-left: 10px;
    width: 140px;
    font-family: fantasy;
    font-weight: bolder;
-   color: #000;
-   text-shadow: 1px 1px 1px #f31b1b;
-   
+   color: rgb(199, 43, 43);
+   text-shadow: 1px 1px 1px #000000;  
 }
 
-
-
-.rust{
-    color: maroon;
-    display: flex; 
-    justify-content: baseline;
-    margin: 15px 0 0 5px;
-    text-shadow: 1px 1px 1px #000;
-    font-size: larger;
+.address p{
+    width: 80px;
 }
 
-/* @keyframes animation */
-
-@keyframes bounce{
-    0%{
-        opacity: 0;
-        transform: translateY(-200%);
-    }
-     
-    100%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-}
-
-.bouncy1{
-    animation-name: bounce;
-    animation-duration: .5s;
-    padding: 3px;
-}
-
-.bouncy2{
-    animation-name: bounce;
-    animation-duration: 1s;
-    padding: 3px;
-}
-
-.bouncy3{
-    animation-name: bounce;
-    animation-duration: 1.5s;
-    padding: 3px;
-}
-
-.address{
-    font-family: cursive;
-    font-weight: bolder;
-    text-align: center;
-}
 
 
 
